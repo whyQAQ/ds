@@ -1,0 +1,23 @@
+
+/*公用*/
+
+.com-width{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.left-area{
+    float: left;
+}
+
+.right-area{
+    float: right;
+}
+
+/*top-bar*/
+
+.top-bar{
+    height: 31px;
+    background-color: rgb(247,247,247);
+    line-height: 31px;
+}
