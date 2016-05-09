@@ -1,12 +1,35 @@
-* {
+*{
     margin: 0;
     padding: 0;
+    border: 0;
+}
+
+.clear-fix {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.clear{
+    clear: both;
+}
+
+.ib{
+  display: inline-block;
 }
 
 a{
     text-decoration: none;
+    color: rgb(102,102,102);
 }
 
 li{
     list-style: none;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
 }
