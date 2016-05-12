@@ -395,8 +395,38 @@
     line-height: 30px;
 }
 
+
+/*footer*/
+
 .footer{
-    height: 224px;
+    padding-top: 56px;
+    text-align: center;
+    line-height: 24px;
+    height: 223px;
     width: 100%;
     background-color: rgb(212,212,212);
 }
+
+.footer i{
+    font-style: normal;
+    margin: 0 5px;
+}
+
+.footer a{
+    color: #000;
+}
+
+.footer a:hover{
+    color: #f60;
+}
+
+.web{
+    margin-top: 36px;
+}
+
+.web img{
+    height: 46px;
+    width: 128px;
+    margin: 0 12px;
+}
+
