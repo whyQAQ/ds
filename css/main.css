@@ -16,7 +16,7 @@
 
 .collection{
     padding-left: 19px;
-    background: url("../images/首页/start.png") left center no-repeat;
+    background: url("../images/icon/start.png") left center no-repeat;
     font-weight: bold;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .shop-text{
-    background: url("../images/首页/shop-car.png") left center no-repeat;
+    background: url("../images/icon/shop-car.png") left center no-repeat;
     padding-left: 30px;
     padding-right: 5px;
     margin-left: 10px;
@@ -108,7 +108,7 @@
     width: 27px;
     height: 35px;
     border-left: 1px solid #ff9c01;
-    background: url("../images/首页/arrow.png") 33px center no-repeat;
+    background: url("../images/icon/arrow.png") 33px center no-repeat;
 }
 
 /*nav*/
@@ -139,7 +139,7 @@
     margin-right: 30px;
     width: 121px;
     line-height: 35px;
-    background: url("../images/首页/sa.png") right center no-repeat;
+    background: url("../images/icon/sa.png") right center no-repeat;
 }
 
 .nav{
@@ -181,7 +181,7 @@
 
 .shop-class-item dt{
     height: 22px;
-    background: url("../images/首页/arrow2.png") right center no-repeat;
+    background: url("../images/icon/arrow2.png") right center no-repeat;
 }
 
 .shop-class-item .b{
@@ -399,6 +399,7 @@
 /*footer*/
 
 .footer{
+    margin-top: 50px;
     padding-top: 56px;
     text-align: center;
     line-height: 24px;
@@ -430,3 +431,115 @@
     margin: 0 12px;
 }
 
+/*商品分类*/
+
+.products{
+    margin-top: 17px;
+}
+
+.left-area{
+    width: 183px;
+
+}
+
+.right-area{
+    width: 815px;
+}
+
+.left-nav{
+    background-color: #f3f3f3;
+    border: 1px solid #d7d7d7;
+}
+
+.nav-title{
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+.nav-cont{
+    padding-left: 20px;
+    line-height: 25px;
+    border-bottom:1px dotted #d7d7d7;
+    margin-bottom: -1px;
+}
+
+.nav-cont h3{
+     font-size: 12px;
+ }
+
+.nav-cont-list li{
+    float: left;
+    width: 50%;
+}
+
+.nav-cont-list li a{
+    font-size: 12px;
+}
+
+/*标题*/
+
+.product-title{
+    margin-top: 7px;
+    height: 34px;
+    border-bottom: 2px solid #ccc;
+}
+
+.product-title h3{
+    text-indent: 7px;
+    line-height: 34px;
+    width: 180px;
+    border-bottom: 2px solid #096dba;
+}
+
+/*product-list*/
+
+.item{
+    margin-bottom: 10px;
+    float: left;
+    height: 280px;
+    width: 25%;
+}
+
+.img-item{
+    height: 170px;
+    text-align: center;
+}
+
+.img-item img{
+    height: 170px;
+}
+
+.item p{
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+.item a{
+    color: black;
+}
+
+.item a:hover{
+    text-decoration: underline;
+}
+
+.item  p .comment{
+    color: rgb(8,92,155);
+}
+
+.money{
+    padding-top: 10px;
+    color: #d4105a;
+    font-weight: bold;
+}
+
+.stars{
+    width: 13px;
+    height: 12px;
+    overflow: hidden;
+    background: url("../images/icon/start.png") left top no-repeat;
+    display: inline-block;
+    margin-right: 1px;
+}
